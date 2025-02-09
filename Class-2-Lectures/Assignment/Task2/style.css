@@ -1,0 +1,37 @@
+/* Optional: Reset some default margins/padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Style for the button to stack the SVG and text vertically */
+  .shape_button {
+    display: flex;
+    flex-direction: column;      /* Stack children vertically */
+    align-items: center;         /* Center items horizontally */
+    justify-content: center;     /* Center items vertically */
+    gap: 8px;                    /* Space between the SVG and the text */
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle default shadow */
+  }
+  
+  /* Hover effects: Increase size and add 3D look */
+  .shape_button:hover {
+    transform: scale(1.1) translateY(-3px);  /* Scale up and lift the button */
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3); /* Deeper shadow for 3D effect */
+  }
+  
+  /* Optional: Style the container of buttons for layout purposes */
+  body > div {
+    display: flex;
+    gap: 20px;              /* Space between buttons */
+    flex-wrap: wrap;        /* Wrap buttons if needed */
+    justify-content: center;
+    padding: 20px;
+  }
+  
