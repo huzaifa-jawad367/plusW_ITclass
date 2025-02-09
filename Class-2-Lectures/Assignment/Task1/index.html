@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Name Formatter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <form id="nameForm">
+    <h1>Name Formatter and Length Calculator</h1>
+    
+    <!-- First Name Row -->
+    <div class="form-row">
+      <label for="firstName">First Name:</label>
+      <input type="text" id="firstName" name="firstName" required>
+      <label for="FNcaseOption">Conversion:</label>
+      <select id="FNcaseOption" name="FNcaseOption">
+        <option value="uppercase">Uppercase</option>
+        <option value="lowercase">Lowercase</option>
+      </select>
+    </div>
+    
+    <!-- Last Name Row -->
+    <div class="form-row">
+      <label for="lastName">Last Name:</label>
+      <input type="text" id="lastName" name="lastName" required>
+      <label for="LNcaseOption">Conversion:</label>
+      <select id="LNcaseOption" name="LNcaseOption">
+        <option value="uppercase">Uppercase</option>
+        <option value="lowercase">Lowercase</option>
+      </select>
+    </div>
+    
+    <button type="button" id="submitBtn">Submit</button>
+
+    <div id="result"></div>
+    
+  </form>
+  
+  <!-- <div id="result"></div> -->
+  <script src="app.js"></script>
+</body>
+</html>

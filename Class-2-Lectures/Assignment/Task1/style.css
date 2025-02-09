@@ -1,0 +1,84 @@
+/* Reset some default margins */
+body, h1, form, div {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Center the page content */
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Form container styling */
+  #nameForm {
+    background: #fff;
+    padding: 20px 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Title styling */
+  #nameForm h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  /* Group each input with its drop-down */
+  .form-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+  
+  /* Style labels to have a fixed width for alignment */
+  .form-row label {
+    margin-right: 10px;
+    min-width: 100px;
+    text-align: right;
+  }
+  
+  /* Style the input fields and drop-downs */
+  .form-row input,
+  .form-row select {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  /* Remove the extra margin on the last element in the row */
+  .form-row input:last-of-type,
+  .form-row select:last-of-type {
+    margin-right: 0;
+  }
+  
+  /* Style the submit button */
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Style the result container */
+  #result {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+  }
+  
