@@ -1,11 +1,25 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import React from 'react';
 import LabeledInput from './LabeledInput';
 import StyledButton from './StyledButton';
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [NameInput, setNameInput] = useState("");
+  const [ContactInput, setContactInput] = useState("");
+  const [tasks, setTasks] = useState([]);
+
+  const fetchContact = () => {
+    fetch("/api/search")
+      .then((res) => res.json())
+      .then((data) => setTasks(data.tasks))
+      .catch((err) => console.error(err));
+  };
+
+  // Run once on component mount
+  useEffect(() => {
+      fetchContact();
+    }, []);
 
   return (
     <>
@@ -15,7 +29,7 @@ function App() {
         <h2>Add Contact</h2>
         <form action="" method="post">
           <LabeledInput label="Name:" type="text" id="name" name="name" />
-          <LabeledInput label="Contact:" type="text" id="contact" name="contact_num" />
+          <LabeledInput label="Contact:" type="tel" id="contact" name="contact_num" />
           <StyledButton type="submit">Add Contact</StyledButton>
         </form>
       </div>

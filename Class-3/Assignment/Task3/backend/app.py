@@ -8,24 +8,33 @@ CORS(app)  # Enable CORS for all routes
 contacts = {}
 
 @app.route('/api/search', methods=['GET'])
-def get_contact(name):
+def get_contact():
     """
-    Search Contacts using a Name.
+    Search Contacts using a Name provided as a query parameter.
+    Example: /api/search?name=John
     """
-    return jsonify({"Contact": contacts[name]})
+    name = request.args.get('name')
+    if not name:
+        return jsonify({"error": "No name provided"}), 400
+    if name not in contacts:
+        return jsonify({"error": "Contact not found"}), 404
+    return jsonify({"contact": contacts[name]})
 
-@app.route('/api/tasks', methods=['POST'])
+@app.route('/api/contact', methods=['POST'])
 def add_contact():
     """
-    Expects a JSON payload with a "task" field.
-    Example: { "task": "Buy groceries" }
+    Expects a JSON payload with a "contact" field.
+    Example: { "contact": { "name": "John", "contact": "123-456-7890" } }
     """
     data = request.get_json()
     if not data or 'contact' not in data:
-        return jsonify({"error": "No task provided"}), 400
-    contact = data['contact']
-    contacts[contact['name']] = contact['contact']
+        return jsonify({"error": "No contact provided"}), 400
 
+    contact = data['contact']
+    if 'name' not in contact or 'contact' not in contact:
+        return jsonify({"error": "Missing name or contact information"}), 400
+
+    contacts[contact['name']] = contact['contact']
     return jsonify({"message": "Contact added", "contacts": contacts}), 201
 
 # Serve React build
