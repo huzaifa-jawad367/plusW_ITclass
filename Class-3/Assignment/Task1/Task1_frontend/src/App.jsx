@@ -49,44 +49,47 @@ function App() {
   };
 
   return (
-    <div className="App">
-      <h1>To Do List Application</h1>
-      {/* Input field and Add button */}
-      <div>
-        <input
-          type="text"
-          placeholder="Enter Task"
-          value={taskInput}
-          onChange={(e) => setTaskInput(e.target.value)}
-        />
-        <button onClick={addTask}>Add Task</button>
-      </div>
-
-      {/* Task List */}
-      <div className="task-list">
-        {tasks.length === 0 ? (
-          <p>No tasks yet.</p>
-        ) : (
-          <table>
-            <thead>
-              <tr>
-                <th>Task</th>
-                <th>Action</th>
-              </tr>
-            </thead>
-            <tbody>
-              {tasks.map((task, index) => (
-                <tr key={index}>
-                  <td>{task}</td>
-                  <td>
-                    <button onClick={() => removeTask(task)}>Remove</button>
-                  </td>
+    <div>
+      {/* Header */}
+      <div className="header">To Do List Application</div>
+  
+      <div className="App">
+        {/* Input field and Add button */}
+        <div>
+          <input
+            type="text"
+            placeholder="Enter Task"
+            value={taskInput}
+            onChange={(e) => setTaskInput(e.target.value)}
+          />
+          <button onClick={addTask}>Add Task</button>
+        </div>
+  
+        {/* Task List */}
+        <div className="task-list">
+          {tasks.length === 0 ? (
+            <p>No tasks yet.</p>
+          ) : (
+            <table>
+              <thead>
+                <tr>
+                  <th>Task</th>
+                  <th>Action</th>
                 </tr>
-              ))}
-            </tbody>
-          </table>
-
-        )}
+              </thead>
+              <tbody>
+                {tasks.map((task, index) => (
+                  <tr key={index}>
+                    <td>{task}</td>
+                    <td>
+                      <button onClick={() => removeTask(task)}>Remove</button>
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          )}
+        </div>
       </div>
     </div>
   );
