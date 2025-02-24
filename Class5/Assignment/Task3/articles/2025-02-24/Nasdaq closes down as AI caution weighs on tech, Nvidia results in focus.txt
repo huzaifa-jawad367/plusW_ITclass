@@ -1,0 +1,42 @@
+Title: Nasdaq closes down as AI caution weighs on tech, Nvidia results in focus
+Link: https://finance.yahoo.com/news/futures-bounce-wall-st-selloff-113149379.html
+Author: Sinéad Carew and Johann M Cherian
+DateTime (attribute): 2025-02-24T11:31:49.000Z
+DateTime (text): Mon, Feb 24, 2025, 4:31 PM
+
+Article Content:
+By Sinéad Carew and Johann M Cherian
+
+(Reuters) -The Nasdaq composite closed down more than 1% on Monday, with big technology stocks creating the biggest drag as investors worried about demand for technology supporting artificial intelligence while they waited for results from market heavyweight Nvidia.
+
+The S&P 500 closed slightly lower while the Dow was close to unchanged.
+
+Demand for Nvidia's's pricey AI chips will be in focus when it reports results on Wednesday. Investors have been questioning hefty spending on the technology since low-cost AI models from China's DeepSeek rattled the industry in January.
+
+Adding to uncertainty, a TD Cowen analyst note published late on Friday reported that Microsoft Corp has scrapped leases for sizeable data center capacity in the U.S., suggesting a potential oversupply of AI infrastructure.
+
+Microsoft said its plan to invest over $80 billion in AI and cloud capacity this fiscal year was intact but that it "may strategically pace or adjust" infrastructure in some areas.
+
+"Markets are already jittery and looking for a reason to take profits," said Gene Goldman, chief investment officer at Cetera Investment Management, noting that any question about AI is seen as a reason to take profits since the technology has driven market growth for the last few years.
+
+And, along with worries about tariffs and inflation, investors are getting more anxious about economic growth after last week's batch of weak economic data and a disappointing forecast from Walmart.
+
+"Volatility is being driven by market uncertainty about whether we're facing a growth scare or an inflation scare," said Goldman.
+
+According to preliminary data, the S&P 500 lost 29.18 points, or 0.49%, to end at 5,983.95 points, while the Nasdaq Composite lost 238.49 points, or 1.22%, to 19,285.51. The Dow Jones Industrial Average rose 33.93 points, or 0.08%, to 43,469.97.
+
+The more defensive healthcare index was leading percentage gains throughout the session while technology was the biggest laggard.
+
+"The dominance of the AI tech trade has run its course, not that these companies aren't great stocks. We're headed for a major digestion phase," said Peter Boockvar, CIO at Bleakley Financial Group.
+
+On the data front, the Personal Consumption Expenditure index - the Federal Reserve's preferred inflation gauge - is expected on Friday and could help markets gauge the timing of the central bank's first rate cut this year.
+
+Interest rate futures indicate trader expectations that the Fed will leave borrowing costs unchanged until June, according to CME Group's FedWatch tool.
+
+In individual stocks, Apple gained ground after the iPhone maker unveiled plans to spend $500 billion in U.S. investments in the next four years, including setting up a factory in Texas for AI servers.
+
+Berkshire Hathaway shares and hit record highs in early trading, after Warren Buffett's conglomerate reported a record annual profit.
+
+Nike added advanced after Jefferies raised its rating to "buy" from "hold".
+
+(Reporting by Sinéad Carew in New York, Johann M Cherian, Sukriti Gupta and in Bengaluru; Editing by Devika Syamnath and David Gregorio)
