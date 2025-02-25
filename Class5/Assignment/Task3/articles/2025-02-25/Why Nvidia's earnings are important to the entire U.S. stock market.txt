@@ -1,0 +1,28 @@
+Title: Why Nvidia's earnings are important to the entire U.S. stock market
+Link: https://finance.yahoo.com/news/why-nvidias-earnings-important-entire-004928403.html
+Author: SARAH PARVINI
+DateTime (attribute): 2025-02-25T00:49:28.000Z
+DateTime (text): Tue, Feb 25, 2025, 5:49 AM
+
+Article Content:
+LOS ANGELES (AP) — Sales of Nvidia's artificial intelligence chip Blackwell will be top of mind when the company releases its latest financial results Wednesday, with analysts eyeing future demand amid a Chinese upstart's claim that it can train competitive AI models using far fewer resources.
+
+Wall Street expects Nvidia to report fourth-quarter adjusted earnings of 85 cents per share on revenue of $38.08 billion, according to FactSet. The company’s net income is expected to reach $19.58 billion.
+
+What happens with Nvidia matters for the entire U.S. stock market. The chip company has grown into the second-largest company on Wall Street, which means the stock’s movement carries more weight on the S&P 500 and other indexes than every company except Apple. The tech giant, based in Santa Clara, California, is now worth over $3 trillion.
+
+Nvidia and other companies benefiting from the AI boom have been a major reason the S&P 500 has climbed to record after record recently, with the latest coming last week. Their explosion of profits has helped to propel the market despite worries about stubbornly high inflation and possible pain coming for the U.S. economy from tariffs and other policies of President Donald Trump.
+
+Nvidia alone accounted for more than a fifth of all of the S&P 500 index’s total return last year. None of the other 499 companies in the index came close. If Nvidia can’t keep up its momentum, particularly when critics say its stock price has climbed too much and too quickly, Americans holding S&P 500 index funds in their 401(k) and other investing accounts could be set for pain.
+
+The fourth-quarter earnings will be the company’s first report since Chinese company DeepSeek boasted it had developed a large language model that could compete with ChatGPT and other U.S. rivals, but was more cost-effective in its use of Nvidia chips to train the system on troves of data.
+
+The frenzy over DeepSeek caused $595 billion in Nvidia’s wealth to briefly vanish. But the company in a statement commended DeepSeek’s work as “an excellent AI advancement” that leveraged “widely-available models and compute that is fully export control compliant.”
+
+Nvidia had carved out an early lead in the AI applications race, partly because of founder and CEO Jensen Huang’s successful bet on the chip technology used to fuel the industry. The company is no stranger to big bets. Nvidia’s invention of the graphics processor unit, or GPU, in 1999 helped spark the growth of the PC gaming market and redefined computer graphics.
+
+Nvidia will release its quarterly earnings after the market closes Wednesday.
+
+——
+
+Associated Press writer Stan Choe contributed to this report.

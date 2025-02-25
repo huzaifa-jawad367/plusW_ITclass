@@ -57,7 +57,7 @@ def analyze_stock(symbol):
     print(df) 
  
 # Example Usage 
-symbol = "AAPL"  # Apple stock 
+symbol = "NVDA"  # NVIDIA stock 
 for _ in range(5):  # Fetch data 5 times with intervals 
     store_data(symbol) 
     time.sleep(60)  # Wait for 1 minute before fetching again 
