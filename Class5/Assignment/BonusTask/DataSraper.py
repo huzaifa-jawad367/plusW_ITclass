@@ -2,7 +2,7 @@ import yfinance as yf
 import sqlite3
 import pandas as pd
 import time
-from yfinance import YFRateLimitError
+from yfinance.exceptions import YFRateLimitError
 
 class StockScraper:
     def __init__(self, companies, period="5y", db_name="stock_data.db", max_retries=3, retry_delay=5):
