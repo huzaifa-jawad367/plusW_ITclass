@@ -7,3 +7,8 @@ Output:
 ![alt text](image.png)
 
 ## Task 2
+
+Output: 
+
+![alt text](image-1.png)
+
